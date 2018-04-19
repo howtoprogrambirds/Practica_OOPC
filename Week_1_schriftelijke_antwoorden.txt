@@ -1,0 +1,33 @@
+1	Wat doet de contructor van de klasse book?
+	
+	De text met de parameter text initialiseren, 
+	de author met de parameter author initialiseren, 
+	de title met de parameter title initialiseren 
+	en het book aanmaken met de bijhorende atributen en functies.
+
+
+2	Hoe noemen we de tekst tussen de : (dubbelepunt) en de { (krulhaak)
+	bij de constructor?
+
+	Initialisatie lijst
+
+
+3	Welke functies van de klasse book zijn van buitenaf toegankelijk?
+
+	De public functies, oftewel de print functie en de constructor.
+
+
+4	Waarom denk je de schrijver van deze code er voor heeft gekozen sommige 
+	functies private te maken?
+	
+	Omdat de functies print_text, print_author, print_title allemaal functies zijn
+	die alleen bedoelt zijn voor een book. Het is dan ook onlogisch dat je wilt dat een 
+	ander (buiten de klas) die specifieke functie kan aanroepen. Hierbij is er de public
+	functie print die alle functies aanroept en hierdoor heeft de gebruiker voordeel 
+	dat hij maar 1 functie hoeft aan te roepen en niet 3.
+
+
+5	Waarom staat er in de .cpp voor elke functie “book::”?
+
+	Dit is een reference naar de clas book. Anders denkt de compiler over een losse functie 
+	die niets met een klasse te maken heeft. 
