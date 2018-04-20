@@ -9,10 +9,10 @@
 #############################################################################
 
 # source files in this project (main.cpp is automatically assumed)
-SOURCES := 
+SOURCES := 	book.cpp
 
 # header files in this project
-HEADERS :=
+HEADERS :=	book.hpp
 
 # other places to look for files for this project
 SEARCH  := 

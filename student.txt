@@ -1,0 +1,13 @@
+// Vervang de tekst onder de tags met de je eigen gegevens.
+
+
+
+<student>
+    
+<naam>Dylan van Eck</naam>
+    
+<studentnummer>1702786</studentnummer>
+    
+<klas>V1B</klas>
+
+</student>
